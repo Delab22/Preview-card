@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    padding: 150px;
+    width: 100%;
+    /* margin: auto; */
+    
+}
+
+.dollar{
+    display: flex;
+    margin-top: 20px;
+}
+
+.la{
+    margin-left: 20px;
+    margin-top: 15px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.do{
+    font-size: 40px;
+    text-decoration: solid;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content{
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    width: 250px;
+}
+
+.content p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.image img{
+    width: 310px;
+}
+button{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    background-color: hsl(158, 36%, 37%);
+}
+.fav{
+    margin-top: 12px;
+}
+.cart{
+    margin-left: 12px;
+}
+.content h1{
+    color: hsl(212, 21%, 14%);
+}
+.cart p{
+    color: white;
+}
+.content h5{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
